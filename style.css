@@ -88,12 +88,14 @@ li a {
   border: none;
   cursor: pointer;
 }
+
 .info {
   flex: 1;
   justify-content: space-evenly;
   padding: 50px 20px;
   background-color: #f0f0f0;
 }
+
 .dog-info {
   text-align: center;
 }
