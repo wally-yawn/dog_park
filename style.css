@@ -5,12 +5,18 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
+
 header {
   background-color: #75e2e6;
   padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -27,6 +33,13 @@ footer {
 .logo {
   height: 50px;
 }
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
 .nav-list {
   list-style-type: none;
   display: flex;
@@ -36,12 +49,15 @@ footer {
 li {
   display: inline-block;
 }
+
 li a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
 }
+
 .hero {
+  width: 100%;
   text-align: center;
   padding: 50px 20px;
   background-image: url("assets/park.jpg");
@@ -49,19 +65,23 @@ li a {
   background-size: cover;
   color: #ffffff;
 }
+
 .hero h1 {
   font-size: 2.5em;
 }
+
 .hero img {
   border-radius: 50%;
   margin: 20px 0;
 }
+
 .hero form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
+
 .hero button {
   padding: 10px 20px;
   background-color: #75e2e6;
@@ -69,7 +89,7 @@ li a {
   cursor: pointer;
 }
 .info {
-  display: flex;
+  flex: 1;
   justify-content: space-evenly;
   padding: 50px 20px;
   background-color: #f0f0f0;
